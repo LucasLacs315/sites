@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code</title>
+</head>
+<style type="text/css">
+    body{
+        background-color: rgb(208, 213, 255);
+        text-align: center;
+    }
+   
+    img{
+        text-align: center;
+        width: 500px;
+        height: 490px;
+        
+    }
+    img:hover{
+        text-align: center;
+        width: 515px;
+        height: 500px;
+    }
+    iframe{
+        width: 33%;
+        height: 70px;
+        background-color: white;
+    }
+</style>
+<body>
+    <div>
+        <img src="images/image-qr-code.png">
+    </div>
+            <iframe 
+            src="index.html">
+                
+            </iframe>
+</body>
+</html>
